@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Title of our webpage -->
+    <title>Voice Craft - Infean LLC</title>
+
+    <!-- More information about our webpage -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Voice Craft by Infean LLC is a cutting-edge technology to transform text into lifelike speech for enhanced accessibility and engagement."
+    />
+    <meta
+      name="keywords"
+      content="Voice Craft, Infean LLC, text-to-speech, online platform, lifelike speech, text conversion, accessibility, engagement, digital assistants, customizable voices, accents, e-learning, natural-sounding audio, interactive voiceovers, speech synthesis, text-to-voice, voice generation, audio conversion, voice technology, digital voice assistant, natural language processing, speech synthesis software, voiceover generator, language accent options, content narration, voice customization, multilingual speech, AI voice technology, website accessibility, voice output, content narration tool"
+    />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta name="author" content="Infean LLC" />
+
+    <!-- Favicon of our webpage -->
+    <link rel="shortcut icon" href="voicecrafticon.ico" type="image/x-icon" />
+
+    <!-- Web Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Internal CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Craft your voice -->
+    <main>
+      <div style="margin-bottom: 10px">
+        <img class="img" src="img/logo.png" alt="Voice Craft" />
+        <h1 class="search">Voice Craft</h1>
+      </div>
+
+      <div class="container">
+        <div class="wrapper">
+          <div class="text-input">
+            <label>Enter Text</label>
+            <textarea spellcheck="false" class="from-text"></textarea>
+            <textarea
+              spellcheck="false"
+              readonly
+              disabled
+              hidden
+              class="to-text"
+              placeholder="Translation"
+            ></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <select></select>
+              <div class="icons">
+                <i
+                  id="from"
+                  class="fa fa-volume-up"
+                  style="
+                    font-size: 30px !important;
+                    color: rgba(187, 187, 187, 0.825) !important;
+                  "
+                ></i>
+              </div>
+            </li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i
+                  id="to"
+                  class="fa fa-volume-up"
+                  style="
+                    font-size: 30px !important;
+                    color: rgba(187, 187, 187, 0.825) !important;
+                  "
+                ></i>
+              </div>
+            </li>
+          </ul>
+          <center>
+            <button>Start</button>
+          </center>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <hr class="line" />
+      <div class="footer-text">
+        <p class="left">Copyright &copy; 2023 Infean - All Rights Reserved.</p>
+        <p class="right">
+          Powered by
+          <a class="link" href="https://infean.com/" target="_blank"
+            >Infean LLC</a
+          >
+          &
+          <a
+            class="link"
+            href="https://mymemory.translated.net/"
+            target="_blank"
+            >MyMemory</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- External JS Links -->
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

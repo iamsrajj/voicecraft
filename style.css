@@ -1,0 +1,236 @@
+body {
+  background-image: url("img/bg.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif !important;
+  height: 100vh;
+}
+
+.search {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+}
+
+.img {
+  max-width: 70px;
+  height: auto;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: -20px;
+  vertical-align: middle;
+}
+
+/* Form Section Styles */
+/* Style the form container */
+.container {
+  background-color: rgb(34, 46, 95);
+  border-radius: 20px;
+  padding: 35px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Style the text input and select elements */
+.text-input {
+  margin-bottom: 25px;
+}
+
+.from-text,
+.to-text {
+  width: 95%;
+  height: auto;
+  min-height: 100px;
+  max-height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+/* Style the controls (icons and select boxes) */
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+/* Style the translate button */
+button {
+  background-color: rgb(12, 25, 80) !important;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the exchange icon */
+.fa-exchange-alt {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Style the select boxes */
+select {
+  width: 120px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the voice and copy icons */
+.fa-volume-up,
+.fa-copy {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Style the voice and copy icons for the "from" and "to" sections separately if needed */
+#from.fa-volume-up,
+#to.fa-volume-up {
+  color: #007bff;
+}
+
+#from.fa-copy,
+#to.fa-copy {
+  color: #555;
+}
+
+div label {
+  display: block;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.more {
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.line {
+  border: 0;
+  border-top: 3px solid #999; /* You can adjust the color and style */
+  margin: 25px 50px; /* Adjust the margin as needed */
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+/* Mobile Styles (for screens up to 768px) */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("img/bg.png"); /* Use a different background image for mobile */
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif !important;
+    height: 100vh;
+  }
+
+  /* Search Bar Styles for Mobile */
+  .search {
+    font-size: 24px;
+    color: white;
+  }
+
+  .img {
+    max-width: 50px; /* Adjust image size for mobile */
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -20px;
+    vertical-align: middle;
+  }
+
+  form button {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 45%;
+  }
+
+  /* Footer Styles for Mobile */
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer p {
+    margin: 5px 0;
+  }
+
+  .line {
+    border: 0;
+    border-top: 3px solid #999; /* You can adjust the color and style */
+    margin: 25px 0; /* Adjust the margin as needed */
+  }
+
+  .link {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+
+  .left,
+  .right {
+    flex: 1;
+  }
+}
