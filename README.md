@@ -21,6 +21,7 @@ Voice Craft by Infean LLC is an online platform developed by Infean LLC that tra
 - Go to the [Voice Craft](https://voicecraft.infean.co/).
 - Write your paragraph in Enter Text area.
 - Click the "Start" button.
+- Wait for a second.
 - Listen the original voice and converted voice of your paragraph.
 
 ## Credits
